@@ -1,4 +1,3 @@
-# suricato-proposta
 h1. Suricato - Proposta
 
 h2. Gerando o template

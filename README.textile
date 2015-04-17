@@ -1,0 +1,17 @@
+# suricato-proposta
+h1. Suricato - Proposta
+
+h2. Gerando o template
+
+Para gerar o pdf, faça:
+
+# Instale o textlive (inclusive os pacotes extras)
+# Vá para o diretório /tcc
+# Execute o comando pdflatex suricato-template.tex
+
+O arquivo suricato-template.pdf será gerado.
+
+h2. Atualizando o template
+
+O texto da proposta se encontra no arquivo suricato-template.tex.
+OBS: Para alterar a bibliografia, altere o arquivo suricato-template.bbl.

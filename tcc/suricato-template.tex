@@ -1,0 +1,128 @@
+\documentclass[12pt]{article}
+
+\usepackage{suricato-template}
+
+\usepackage{graphicx,url}
+%\usepackage[brazil]{babel}   
+\usepackage[latin1]{inputenc}  
+
+     
+\sloppy
+
+\title{Suricato - Introdução a Retrospectivas}
+
+\author{Lucas Takeshi Rodrigues Palma\inst{1}, Marcio Sakamoto Shibao\inst{1}, 
+	\\Orientador: Prof. Dr. Alfredo Goldman\inst{1}, Co-orientadora: Cecilia Fernandes\inst{1} }
+
+\address{Instituto de Matemática e Estatística\\
+  Universidade de São Paulo (USP) -- São Paulo, SP -- Brazil
+  \email{\{lucas.palma,shibao,gold\}@usp.br, cecilia.fernandes@caelum.com.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+
+\section{Introdução}
+
+Desde a publicação do Manifesto Ágil em 2001, o conceito de agilidade tem sido cada vez mais estudado e adotado por empresas ao redor do mundo. No Brasil, uma pesquisa feita por \cite{melo:12} mostrou que, de 466 empresas que responderam a pesquisa, 64.8\% já tinham pelo menos um ano de experiência com métodos ágeis. A pesquisa também apontou que uma das práticas ágeis mais utilizadas por estas empresas é a retrospectiva. Mas o que é um retrospectiva?
+
+Segundo \cite{derby:06}, retrospectiva é uma reunião especial em que o time se junta para investigar e melhorar seus métodos -- um tempo dedicado à aprendizagem, que funciona como um catalisador de mudanças e ações. Em contraste às tradicionais lições aprendidas, ela foca tanto no processo de desenvolvimento, quanto nas questões humanas do projeto.
+
+Desta forma, a retrospectiva acaba criando um ambiente propício para pessoas ouvirem diferentes percepções e pontos de vista e, assim, ampliar a visão sobre as diversas situações pelas quais o time passa. Essa reunião é, portanto, uma importante ferramenta para o ciclo de melhoria contínua proposto pelos métodos ágeis, por trazer a oportunidade a cada membro de entender como melhorar suas habilidades, a produtividade do time e a qualidade do produto.
+
+Em tempos em que há constantes mudanças de indivíduos ou diferentes produtos a serem desenvolvidos, manter a qualidade e padrões fica cada vez mais difícil. Difundir as práticas e culturas, além de mostrar novos projetos e objetivos, também são subprodutos das retrospectivas, já que todos estarão atentos e o ambiente é propício a discussões.
+
+\section{Como funciona uma retrospectiva} \label{sec:comoFunciona}
+
+A retrospectiva pode ser um reunião complicada, dividida em uma série de etapas, e dado o tempo que ela leva, é comum as pessoas se perderem nos problemas. Assim, é interessante ter uma pessoa focada no andamento da reunião e não nos problemas. 
+
+Essa pessoa é chamada de facilitador. Sua função é manter o time focado, sem se perder durante as discussões e se alongar demais em alguns temas. Ele pode fazer isso, por exemplo, relembrando o assunto principal e tentando evitar discussões de pouco valor.
+
+Durante a retrospectiva, o time deve ser capaz de identificar obstáculos e situações adversas. Esse é o momento para resolver os problemas, definir ações e encontrar responsáveis por fazer as mudanças acontecerem na equipe, dividindo assim a responsabilidade.
+
+Para organizar tudo isso, há diversas literaturas a respeito de formatos para essa reunião, como citados por \cite{caroli:14} no livro Fun Retrospectives, ou por \cite{kua:13} em The Retrospective Handbook. A sugestão mais conhecida entre agilistas é, no entanto, o formato apresentado por \cite{derby:06} no livro Agile Retrospectives: 
+
+\begin{enumerate}
+	\item{Preparar o terreno: 5\% do tempo;}
+	\item{Coletar os dados: 30\% a 50\% do tempo;}
+	\item{Gerar ideias: 20\% a 30\% do tempo;}
+	\item{Decidir o que fazer: 15\% a 20\% do tempo;}
+	\item{Encerrar a retrospectiva: 10\% do tempo.}
+\end{enumerate}
+
+\subsection{Preparar o terreno}
+
+O objetivo desta etapa é ajudar o time a se concentrar no que será feito no decorrer da reunião e passar para as pessoas qual será o objetivo da retrospectiva.
+
+Além disso, esta etapa também é responsável por estabelecer o ambiente no qual as pessoas discutirão. Por isso, é necessário estabelecer uma atmosfera que deixe as pessoas confortáveis para expressarem suas opiniões e debater problemas.
+
+\subsection{Coletar os dados}
+
+Mesmo em iterações curtas de uma ou duas semanas, é muito difícil que todas as pessoas tenham visto e participado de tudo que aconteceu. Por isso, é importante que todos criem uma mesma visão sobre o que aconteceu no projeto, caso contrário cada um baseará seus pensamentos apenas nas suas próprias opiniões e pontos de vista sobre a última iteração, tornando difícil estabelecer ações que todos se comprometerão. Desta forma, esta etapa busca estabelecer uma mesma imagem do que andou acontecendo para todo mundo. Para formar esta imagem será necessário coletar dados sobre a iteração.
+
+Os primeiros dados coletados são os fatos, como eventos, métricas, funcionalidades, histórias terminadas e assim por diante. Mostrando visualmente estes dados, as pessoas podem encontrar padrões e fazer ligações entre os últimos acontecimentos. Depois, são coletados os sentimentos. Eles mostram o que é importante para cada um dos integrantes a respeito dos fatos e da equipe.
+
+Por fim, baseados nos fatos e sentimentos apresentados, são coletados os pontos fortes e fracos da equipe na iteração.
+
+\subsection{Gerar ideias}
+
+Depois que um ambiente propício para discussões é estabelecido e todos estão olhando para os mesmo dados, é o momento de dar um passo pra trás para visualizar a imagem que foi gerada e pensar no que fazer. Então é nesta etapa em que as pessoas investigam quais foram os problemas enfrentados e os riscos que elas estão correndo. A partir destas discussões propõem diversas ideias sobre o que pode ser feito para que o time melhore.
+
+\subsection{Decidir o que fazer}
+
+Após obter um conjunto de ideias, é o momento de listar quais são as melhores ações e escolher aquelas que serão executadas.
+
+É comum nesta etapa as pessoas apontarem muitas ações e quererem adotar todas. No entanto, acaba sendo bem difícil que todas sejam incorporadas e, algumas vezes, nenhuma delas é utilizada. Então o ideal é que ao final desta etapa sejam eleitas uma ou duas ações que as pessoas vão conseguir adotar e que trarão algum benefício.
+
+Além disso, é interessante delegar a alguém a responsabilidade por realizar a ação planejada -- quando ninguém fica como responsável é bem comum que a mudança não seja feita.
+
+\subsection{Encerrar a retrospectiva}
+
+No decorrer da retrospectiva o time esteve, a todo momento, discutindo e tendo ideias. Com isto vem também um aprendizado para as pessoas sobre a equipe e o projeto. No entanto, nem todas as ideias que foram apresentadas serão utilizadas na próxima iteração.
+
+Além disso, o facilitador pode  buscar os pontos positivos e negativos da reunião promovendo, dessa forma, uma breve retrospectiva da retrospectiva. Assim, haverá feedback para que o facilitador melhore sua atuação e a escolha de atividades para a próxima vez.
+
+\section{Dificuldades de uma retrospectiva}
+
+O conceito pode parecer simples, mas fazer uma boa retrospectiva pode ser uma experiência desafiadora, em que muitas coisas podem dar errado. Mesmo para times pequenos, definir um dia e horário no qual todos os integrantes estarão presentes e disponíveis por algumas horas pode ser uma dor de cabeça. Esse problema pode ser ainda maior se pretendemos realizar a retrospectiva com uma certa frequência, como, por exemplo, após o término de cada iteração curta.
+
+Além disso, dependendo das atividades realizadas nas retrospectiva pode ser que apareça um novo problema: cair em uma rotina. \cite{poussard:14} aponta que muitos acabam criando hábitos nas retrospectivas e executando sempre os mesmos tipos de atividades, o que enfraquece a evolução que poderia ser conquistada. Segundo \cite{derby:06}, as pessoas tendem a perder o interesse na retrospectiva quando estão fazendo sempre as mesmas atividades.
+
+Outro desafio que ocorre com frequência nas retrospectivas é o gerenciamento do tempo. Como as atividades geralmente envolvem discussões, pode acontecer dos tempos estabelecidos não serem cumpridos. Assim, pode ser que as pessoas precisem pular alguma atividade, ou que o tempo planejado seja ultrapassado.
+
+Mais ainda, nem todas as equipes possuem um ambiente inicial confortável e aberto para se expressar. As pessoas podem não se conhecer muito bem, ou não ter intimidade para falar sobre os outros, ou a hierarquia da empresa faça com que sintam medo de colocarem o que pensam sem serem julgados por isso. Conseguir essas condições nem sempre é fácil e alguns podem preferir alguma forma mais anônima para se expôr.
+Se fazer retrospectivas em times co-locados já apresenta dificuldades, novos desafios surgiram com a adoção das práticas ágeis em equipes remotas.
+
+Uma pesquisa realizada pela \cite{versionOne:13} mostrou que 76\% das empresas entrevistadas possuem pelo menos um time distribuído ágil. Em 2012, o percentual era de apenas 35\%, ou seja, em um ano a quantidade mais do que dobrou. A pesquisa também descobriu um aumento de 10\% nos últimos dois anos no número de entrevistados que realizam retrospectivas, indo de 64\% em 2011 para 74\% em 2013. \cite{rowell:13} apresentou algumas dificuldades que os integrantes passam nestas reuniões remotas: 
+
+\begin{enumerate}
+	\item{falta de engajamento;}
+	\item{problemas técnicos com a ferramenta de comunicação;}
+	\item{dificuldades em participar e ser ouvido;}
+	\item{perder facilmente a concentração;}
+	\item{não alcançar o objetivo dentro do tempo estabelecido;}
+	\item{não poder usar algumas técnicas aproveitadas em reuniões locais, como discussões em pequenos grupos e colocar post-its em um quadro.}
+\end{enumerate}
+
+Uma das soluções sugeridas por \cite{piessens:13} é o uso de ferramentas de comunicação em vídeo, como o Hangouts ou Lync, em conjunto com algum sistema online que sirva de lousa, como o Trello. Porém, nenhum desses programas foi construído especificamente para retrospectivas, são soluções improvisadas dada uma necessidade -- elas não ajudam a resolver antigos problemas como gerenciamento de tempo, uso constante dos mesmo tipos de atividades, ambiente propício para todos se expressarem, entre outros.
+
+Em um cenário distribuído, estes antigos problemas chegam até mesmo a serem agravados. Por exemplo, quando o time não consegue se deslocar para um mesmo lugar, uma opção é utilizar ferramentas de chamada em vídeo. No entanto, estas ferramentas estão sujeitas a atrasos, perda de conexão, entre outros. Estes problemas podem atrapalhar a discussão e atrasar as atividades, dificultando ainda mais o controle do tempo da retrospectiva.
+
+Além disso, como os integrantes trabalham em diferentes lugares, pode acontecer de não haver muita interação entre as equipes. Isto acaba dificultando as chances das pessoas se conhecerem e criarem intimidade. Assim, pode ser particularmente importante proporcionar um ambiente no qual opiniões realmente anônimas sejam dadas.
+
+Também existem situações em que os integrantes estão em fusos horários completamente diferentes. Neste casos, é interessante tirar o maior proveito possível dos breves momentos em que o time consegue se encontrar, fazendo a colheita de ideias de forma assíncrona,  antes da reunião remota.
+
+\section{Conclusão}
+
+Times ágeis buscam melhoria contínua, isto é, buscam ajustar comportamentos para melhorar a forma de trabalho, o produto desenvolvido e sua produtividade. Retrospectivas figuram entre as práticas ágeis mais utilizadas para esse fim e sua importância é reconhecida por diversos autores e times, no Brasil e no mundo. Há teorias sobre a estrutura dessas reuniões, frequentes palestras sobre o assunto em conferências sobre agilidade e diversas listagem de atividades já catalogadas.
+
+Entretanto, ainda há muito espaço para estudar como o processo é executado, analisar as atividades existentes e seu uso, entender as dores de times e quais ferramentas já existem para reduzir as dificuldades reportadas.
+
+Se nossa impressão de que ainda não há um software completo para auxiliar times se confirmar, um potencial futuro para essa pesquisa é desenvolver um sistema com esse foco, que melhore a colaboração e simplifique a facilitação dessas reuniões -- com sugestões de atividades variadas, uma possibilidade real de anonimato nas respostas, a possibilidade de fazer ricas atividades mesmo em times distribuídos, entre outros.
+
+\bibliographystyle{suricato}
+\bibliography{suricato-template}
+
+\end{document}
